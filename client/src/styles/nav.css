@@ -1,0 +1,59 @@
+nav {
+	display: block;
+	grid-column: 1;
+	grid-row: 2;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	overflow: hidden;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+    padding: 5;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  nav li + li:before{
+    content: " | ";
+    padding-right: 40px;
+    }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  #banner-container {
+    position:relative;
+    width: 100%; /* Make the image span the width of its container (the <li>) */
+    max-width: 100%; /* Ensure the image doesn't exceed its original width */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+
+  #banner-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /*/Website header*/
+  #banner-text {
+    position: absolute;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+    top: 22%;
+    left: 2%;
+    text-align: center;
+    color: white;
+  }
+
+h3 {
+    color: "red";
+}

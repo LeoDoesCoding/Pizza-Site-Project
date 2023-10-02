@@ -1,0 +1,68 @@
+#mainBody {
+    max-width: 95%;
+    text-align: center;
+    margin: 2%;
+  }
+
+#menuGrid {
+  display: grid;
+  max-width: 100%;
+  margin: 2%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.menu-item {
+  margin: 4%;
+  padding: 2%;
+  border-radius: 25px;
+  text-align: center;
+  border: 4px solid #b4290d;
+  background-color: #fff;
+}
+
+.menu-item button {
+  background-color:black;
+}
+
+.price-and-cart{
+  display:inline-block;
+  vertical-align: middle;
+  margin: 10%;
+  padding: 5px 20px;
+  margin-top: 5px;
+  color: white;
+  border-top: 2px black;
+}
+
+.selection-box {
+  display: grid;
+  width: 100%;
+  text-align: left;
+  border-radius: 25px;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 3%;
+  background-color: #b4290d;
+}
+
+.box-item {
+  padding: 5px 20px;
+  margin-top: 5px;
+  color: white;
+}
+
+#selectSize {
+  margin: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+#selectBase {
+  margin: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 2%;
+}
