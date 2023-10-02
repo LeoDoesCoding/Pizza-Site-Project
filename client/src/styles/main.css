@@ -1,5 +1,17 @@
 #body {
-  background-image: url('../../public/background.png');
+  position: absolute;
   width:100%;
+  background-image: url('../../public/background.png');
+  padding: 30px;
   background-attachment: fixed;
+  text-align: center;
+}
+
+#bodyContent {
+  position: relative;
+  width:90%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.75);
 }

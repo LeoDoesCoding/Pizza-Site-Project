@@ -20,7 +20,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Layout/>}>
-          <Route path="/" element={<FoodMenu/>}/>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/Menu" element={<FoodMenu/>}/>
         </Route>
       </Routes>
     </Router>
