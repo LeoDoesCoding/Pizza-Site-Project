@@ -8,3 +8,4 @@ Third time is the charm, right?
 
 ## Issues
 - Half-half items returning wrong IDs
+- Half-half images are sepperated
