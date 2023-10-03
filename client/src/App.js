@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Layout from "./components/Layout"
-import FoodMenu from "./components/Menu"
 import Home from "./components/Home"
+import FoodMenu from "./components/Menu"
+import HalfHalf from "./components/HalfHalf"
 import "./styles/main.css"
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
@@ -21,7 +22,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route path="/" element={<Home/>}/>
-          <Route path="/Menu" element={<FoodMenu/>}/>
+          <Route path="/Pizzas" element={<FoodMenu/>}/>
+          <Route path="/5050Pizzas" element={<HalfHalf/>}/>
         </Route>
       </Routes>
     </Router>

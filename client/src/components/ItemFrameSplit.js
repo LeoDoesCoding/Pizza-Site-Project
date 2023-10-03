@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/menu.css';
 
-function ItemFrame({item, buttonText}) {
+function ItemFrame({item, item2, buttonText}) {
   const [backendData, setBackendData] = useState([{}]);
   const [Size, setSize] = React.useState('mid');
   const [Base, setBase] = React.useState('TI');
@@ -40,8 +40,9 @@ function ItemFrame({item, buttonText}) {
 
   return (
     <div key={item.id} className="menu-item">
-        <img className="menu-image" src={item.img} alt={item.name} onError={(e) => console.error(`Error loading image: ${e.target.src}`)}/>
-        <h3>{item.name}</h3>
+        <img className="menu-image" id="leftside" src={item.img} alt={item.name} onError={(e) => console.error(`Error loading image: ${e.target.src}`)}/>
+        <img className="menu-image" id="rightside" src={item2.img} alt={item2.name} onError={(e) => console.error(`Error loading image: ${e.target.src}`)}/>
+        <h3>{item.name} + {item2.name}</h3>
 
         {/*Size dropdown*/}
         <div className="selection-box"><label className="box-item">Size:</label>

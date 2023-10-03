@@ -8,7 +8,7 @@ function Layout() {
 		<><><Nav/></>
 		<div id="body">
 			<div id="bodyContent">
-				<Outlet />
+				<Outlet /> {/*Body of the page is here*/}
 			</div>
 		</div></>
 	)

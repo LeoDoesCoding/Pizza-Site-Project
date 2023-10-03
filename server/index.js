@@ -10,8 +10,8 @@ app.get("/api", (req, res) => {
 		  { id: 1, name: 'Cheese', price: '10', img: '/cheese.png'},
 		  { id: 2, name: 'Shrimp', price: '10', img: '/shrimp.png'},
 		  { id: 3, name: 'Pepper', price: '10', img: '/pepper.png'},
-		  { id: 4, name: 'Cheese agaib', price: '10', img: '/cheese.png'},
-		  { id: 5, name: 'Youre telling me shrimp cooked this pizza?', price: '100', img: '/shrimp.png'}
+		  { id: 4, name: 'Anti-Cheese', price: '10', img: '/anticheese.png'},
+		  { id: 5, name: 'Fake Shrimp', price: '100', img: '/shrimp.png'}
 		],
 		users: [
 		  { id: 1, username: 'Admin' },

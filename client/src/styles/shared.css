@@ -1,0 +1,13 @@
+.shadedBox {
+    position: relative;
+    width:90%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+h2 {
+    color: white;
+    position: absolute;
+}

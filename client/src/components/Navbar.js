@@ -12,9 +12,10 @@ function Nav() {
 			<nav>
 				<ul>
 					<li><a href="/">Home</a></li>
-					<li><a href="/Menu">Menu</a></li>
-					<li><a href="/services">Services</a></li>
-					<li><a href="/contact">Contact</a></li>
+					<li><a href="/Pizzas">Pizzas</a></li>
+					<li><a href="/5050Pizzas">50\50 Pizzas</a></li>
+					<li><a href="/Sides">Sides</a></li>
+					<li><a href="/Drinks">Drinks</a></li>
 				</ul>
 			</nav>
 		</header>

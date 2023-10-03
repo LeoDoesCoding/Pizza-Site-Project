@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/menu.css';
+import '../styles/shared.css';
 import ItemFrame from "./ItemFrame"
 
 function FoodMenu() {
@@ -18,16 +19,16 @@ function FoodMenu() {
 
 
   return (
-    <div id="menuGrid">
+    <><div className="menuGrid shadedBox">
       {/*For each item in Menu, generate an itembox.*/}
       {(typeof backendData.menu === 'undefined') ? (
         <p>There was an error loading the information.</p>
       ) : (
         backendData.menu.map((item, i) => (
-          <><ItemFrame i={i} item={item}/></>
+          <><ItemFrame item={item} buttonText={'Add to Cart'}/></>
         ))
       )}
-    </div>
+    </div></>
   )
 }
 export default FoodMenu;
